@@ -3,7 +3,11 @@ import "./index.css";
 
 const Square = (props) => {
 	return (
-		<button className="square" onClick={props.onClickEvent}>
+		<button
+			className="square"
+			onClick={props.onClickEvent}
+			style={{ color: props.active ? "green" : "red" }}
+		>
 			{props.value}
 		</button>
 	);
@@ -33,6 +37,7 @@ const Board = () => {
 			<Square
 				value={squares[i]}
 				onClickEvent={() => handleClickEvent(i)}
+				active={xIsNext}
 			/>
 		);
 	};
