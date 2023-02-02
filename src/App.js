@@ -1,6 +1,6 @@
 import "./App.css";
+import "./index.css";
 import Game from "./Game";
-
 import React from "react";
 
 const App = () => {

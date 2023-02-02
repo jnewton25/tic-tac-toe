@@ -1,5 +1,9 @@
 body {
 	background-color: #444;
+	background-image: url("/assets/mario-bg.jpg");
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
 	color: white;
 	margin: 20px;
 	font: 32px "Century Gothic", Futura, sans-serif;
