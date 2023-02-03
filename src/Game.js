@@ -6,7 +6,7 @@ const Square = (props) => {
 		<button
 			className="square"
 			onClick={props.onClickEvent}
-			style={{ color: props.active ? "green" : "red" }}
+			style={{ color: props.value === "X" ? "#abdbe3" : "#063970" }}
 		>
 			{props.value}
 		</button>
